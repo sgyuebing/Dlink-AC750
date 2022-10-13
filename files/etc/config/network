@@ -30,6 +30,5 @@ config switch_vlan
 	option vlan '1'
 	option ports '0 6t'
 
-config interface 'wwan'
-	option proto 'dhcp'
+
 
