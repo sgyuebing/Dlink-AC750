@@ -26,11 +26,5 @@ config wifi-iface 'default_radio1'
 	option iw_qos_map_set 'none'
 	option ssid 'AC750'
 
-config wifi-iface 'wifinet2'
-	option device 'radio0'
-	option mode 'sta'
-	option network 'wwan'
-	option ssid 'BI4PCS'
-	option encryption 'psk2'
-	option key 'a88888888'
+
 
