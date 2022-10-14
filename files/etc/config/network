@@ -30,5 +30,11 @@ config switch_vlan
 	option vlan '1'
 	option ports '0 6t'
 
+config interface 'trm_wwan'
+	option proto 'dhcp'
+	option metric '100'
 
+config interface 'trm_wwan6'
+	option device '@trm_wwan'
+	option proto 'dhcpv6'
 
