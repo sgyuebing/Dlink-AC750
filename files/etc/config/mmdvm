@@ -1,0 +1,114 @@
+
+config mmdvmhost 'POCSAG'
+	option Enable '0'
+	option Frequency '439987500'
+
+config mmdvmhost 'ircDDB'
+	option Enable '0'
+
+config mmdvmhost 'DMR'
+	option Enable '0'
+	option ColorCode '1'
+	option SelfOnly '0'
+	option DumpTAData '1'
+
+config mmdvmhost 'NXDN'
+	option Enable '0'
+
+config mmdvmhost 'P25'
+	option NAC '293'
+	option SelfOnly '0'
+	option OverrideUIDCheck '0'
+	option Enable '0'
+
+config mmdvmhost 'System_Fusion'
+	option SelfOnly '0'
+	option Enable '1'
+
+config mmdvmhost 'General'
+	option Callsign 'N0CALL'
+	option Id '123456'
+	option Duplex '0'
+	option NetModeHang '3'
+	option RFModeHang '10'
+
+config mmdvmhost 'Modem'
+	option RXOffset '0'
+	option TXOffset '0'
+	option RSSIMappingFile '/etc/mmdvm/RSSI.dat'
+	option Port 'NullModem'
+
+config mmdvmhost 'DStar_Network'
+	option Enable '0'
+
+config mmdvmhost 'NXDN_Network'
+	option Enable '0'
+
+config mmdvmhost 'DMR_Network'
+	option Password 'passw0rd'
+	option Enable '0'
+	option Address '4601.master.brandmeister.network'
+
+config mmdvmhost 'Info'
+	option Latitude '0'
+	option Longitude '0'
+	option Power '1'
+	option Height '0'
+	option Location 'Nowhere'
+	option Description 'Multi-Mode Hotspot'
+	option URL 'https://www.qrz.com/db/N0CALL'
+	option RXFrequency '438100000'
+	option TXFrequency '438100000'
+
+config mmdvmhost 'POCSAG_Network'
+	option Enable '0'
+
+config mmdvmhost 'DStar'
+	option Module 'C'
+	option Enable '0'
+
+config mmdvmhost 'P25_Network'
+	option Enable '0'
+
+config mmdvmhost 'System_Fusion_Network'
+	option Enable '1'
+
+config ysfgateway 'YSFG_Network'
+	option InactivityTimeout '5'
+	option Revert '1'
+	option Startup 'CN-BH4JBV666'
+
+config p25gateway 'P25G_Network'
+	option Startup '10403'
+	option InactivityTimeout '5'
+	option Revert '1'
+
+config nxdngateway 'NXDNG_Network'
+	option Startup '31010'
+	option InactivityTimeout '10'
+	option Revert '1'
+
+config dapnetgateway 'DAPNET_General'
+	option Callsign 'N0CALL'
+
+config dapnetgateway 'DAPNET_DAPNET'
+	option Address 'dapnet.afu.rwth-aachen.de'
+	option AuthKey 'TOPSECRET'
+
+config dstar 'ircddbgateway'
+	option gatewayCallsign 'N0CALL'
+	option repeaterCall1 'N0CALL'
+	option reflector1 'XRF055 C'
+	option ircddbUsername 'N0CALL'
+	option aprsHostname 'asia.aprs2.net'
+	option dplusLogin 'N0CALL'
+
+config ysfgateway 'YSFG_General'
+	option Callsign 'N0CALL'
+
+config p25gateway 'P25G_General'
+	option Callsign 'N0CALL'
+
+config nxdngateway 'NXDNG_General'
+	option Callsign 'N0CALL'
+
