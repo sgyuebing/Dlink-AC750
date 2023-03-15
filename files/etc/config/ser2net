@@ -1,0 +1,30 @@
+
+config ser2net 'global'
+	option enabled '1'
+
+config controlport
+	option enabled '0'
+	option host 'localhost'
+	option port '2000'
+
+config default
+	option speed '115200'
+	option databits '8'
+	option parity 'none'
+	option stopbits '1'
+	option rtscts 'false'
+	option local 'false'
+	option remctl 'true'
+
+config proxy
+	option enabled '0'
+	option port '5000'
+	option timeout '0'
+	option baudrate '115200'
+	option databits '8'
+	option parity 'none'
+	option stopbits '1'
+	option xonxoff 'false'
+	option protocol 'raw'
+	option device '/dev/ttyUSB0'
+
