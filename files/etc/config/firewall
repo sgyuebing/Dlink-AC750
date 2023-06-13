@@ -136,7 +136,7 @@ config include
 
 config include 'zerotier'
 	option type 'script'
-	option path '/etc/zerotier.start'
+	option path '/etc/zerotier.reload'
 	option reload '1'
 
 config include 'passwall'

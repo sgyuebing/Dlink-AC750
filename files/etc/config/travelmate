@@ -16,5 +16,5 @@ config uplink
 	option ssid 'BI4PCS'
 	option con_start_expiry '0'
 	option con_end_expiry '0'
-	option con_start '2023.01.01-09:19:31'
+	option con_start '2023.06.13-23:13:58'
 
