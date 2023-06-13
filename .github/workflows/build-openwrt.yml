@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name:  Newifi D1
+name:  AC750
 
 on:
   repository_dispatch:
